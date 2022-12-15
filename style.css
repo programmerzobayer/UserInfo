@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #33d9b2;
+}
+.user-list{
+    background: lightsalmon;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 8px 10px rgba(38, 37, 37, 0.48);
+}
+.id{
+    background: lightgreen;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    position: absolute;
+    top: -18px;
+    left: -14px;  
+}
+.userBtn{
+    background: lightgreen;
+    color: rgb(72, 80, 188);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 15px;
+    box-shadow: 3px 4px 7px rgb(143, 142, 142);
+}
+.userBtn:focus{
+    outline: none !important;
+}
+#userPage{
+    background:#1e272e;
+    color: white;
+  padding: 20px;
+  border-radius: 8px;
+ text-align: center;
+}
+#userClose i{
+color: rgb(139, 139, 239);
+font-size: 25px;
+}
+@media (max-width:746px){
+    .user-list{
+        width: 95%;
+    }
+    #userPage{
+        width: 95%;
+        left: 8px !important;
+    }
+    .id{
+        font-size: 17px;
+    }
+}
